@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "lightbulb",
+  "version": "${version}",
+
+  "name": "Lightbulb",
+  "description": "Lighting block glow up! Adds colored lighting blocks for building.",
+  "authors": [
+    "VoxelDragon6 (everything)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.timeworndevs.lightbulb.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "lightbulb:white_glowblock",
+    "lightbulb:light_gray_glowblock",
+    "lightbulb:gray_glowblock",
+    "lightbulb:black_glowblock",
+    "lightbulb:red_glowblock",
+    "lightbulb:orange_glowblock",
+    "lightbulb:yellow_glowblock",
+    "lightbulb:lime_glowblock",
+    "lightbulb:green_glowblock",
+    "lightbulb:cyan_glowblock",
+    "lightbulb:light_blue_glowblock",
+    "lightbulb:blue_glowblock",
+    "lightbulb:purple_glowblock",
+    "lightbulb:magenta_glowblock",
+    "lightbulb:pink_glowblock",
+    "lightbulb:brown_glowblock"
+  ]
+}

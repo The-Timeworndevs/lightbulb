@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    "pgp",
+    " p "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    },
+    "g": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "lightbulb:cyan_glowblock",
+    "count": 4
+  }
+}
