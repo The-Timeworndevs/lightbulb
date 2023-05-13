@@ -16,6 +16,41 @@
     "lightbulb:purple_glowblock",
     "lightbulb:magenta_glowblock",
     "lightbulb:pink_glowblock",
-    "lightbulb:brown_glowblock"
+    "lightbulb:brown_glowblock",
+
+    "lightbulb:white_glowlamp",
+    "lightbulb:light_gray_glowlamp",
+    "lightbulb:gray_glowlamp",
+    "lightbulb:black_glowlamp",
+    "lightbulb:red_glowlamp",
+    "lightbulb:orange_glowlamp",
+    "lightbulb:yellow_glowlamp",
+    "lightbulb:lime_glowlamp",
+    "lightbulb:green_glowlamp",
+    "lightbulb:cyan_glowlamp",
+    "lightbulb:light_blue_glowlamp",
+    "lightbulb:blue_glowlamp",
+    "lightbulb:purple_glowlamp",
+    "lightbulb:magenta_glowlamp",
+    "lightbulb:pink_glowlamp",
+    "lightbulb:brown_glowlamp",
+
+    "lightbulb:inverted_white_glowlamp",
+    "lightbulb:inverted_light_gray_glowlamp",
+    "lightbulb:inverted_gray_glowlamp",
+    "lightbulb:inverted_black_glowlamp",
+    "lightbulb:inverted_red_glowlamp",
+    "lightbulb:inverted_orange_glowlamp",
+    "lightbulb:inverted_yellow_glowlamp",
+    "lightbulb:inverted_lime_glowlamp",
+    "lightbulb:inverted_green_glowlamp",
+    "lightbulb:inverted_cyan_glowlamp",
+    "lightbulb:inverted_light_blue_glowlamp",
+    "lightbulb:inverted_blue_glowlamp",
+    "lightbulb:inverted_purple_glowlamp",
+    "lightbulb:inverted_magenta_glowlamp",
+    "lightbulb:inverted_pink_glowlamp",
+    "lightbulb:inverted_brown_glowlamp"
+
   ]
 }

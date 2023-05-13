@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "lightbulb:block/gray_glowlamp_on"
+    },
+    "lit=true": {
+      "model": "lightbulb:block/gray_glowlamp_off"
+    }
+  }
+}

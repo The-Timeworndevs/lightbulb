@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lightbulb:block/light_blue_glowlamp_off"
+  }
+}

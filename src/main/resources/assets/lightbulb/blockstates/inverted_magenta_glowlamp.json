@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "lightbulb:block/magenta_glowlamp_on"
+    },
+    "lit=true": {
+      "model": "lightbulb:block/magenta_glowlamp_off"
+    }
+  }
+}

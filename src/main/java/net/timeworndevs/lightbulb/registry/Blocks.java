@@ -41,7 +41,7 @@ public class Blocks {
 
     public static void sets(String modid, String setName){
         Registries.registerBlocks(new Identifier(modid, setName + "_glowblock"), new Block(AbstractBlock.Settings.of(Material.STONE).sounds(BlockSoundGroup.GLASS).luminance((state) -> {return 15;}).strength(0.3f)));
-        Registries.registerBlocks(new Identifier(modid, setName + "_glowlamp.json"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromLitBlockState(15)).strength(0.3f)));
-        Registries.registerBlocks(new Identifier(modid, "inverted_" + setName + "_glowlamp.json"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromUnlitLitBlockState(15)).strength(0.3f)));
+        Registries.registerBlocks(new Identifier(modid, setName + "_glowlamp"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromLitBlockState(15)).strength(0.3f)));
+        Registries.registerBlocks(new Identifier(modid, "inverted_" + setName + "_glowlamp"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromUnlitLitBlockState(15)).strength(0.3f)));
     }
 }
