@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "Lightbulb",
-  "description": "Lighting block glow up! Adds colored lighting blocks for building.",
+  "description": "Lighting block's glow up! Adds colored lighting blocks for building.",
   "authors": [
     "VoxelDragon6 (everything)"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://modrinth.com/mod/lightbulb",
+    "sources": "https://github.com/HexBugOrion/lightbulb"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/lightbulb/icon.png",
 
   "environment": "*",
   "entrypoints": {

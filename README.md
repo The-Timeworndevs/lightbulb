@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Lightbulb
+## Lighting up your Minecraft World
 
-## Setup
+Lightbulb is a small mod that adds a few items. It is reccomended to use REI or EMI to see the recipes
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Current items include:
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Glowblocks in all 16 colors!
