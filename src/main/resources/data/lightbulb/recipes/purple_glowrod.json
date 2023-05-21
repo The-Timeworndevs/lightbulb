@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b",
+    "b"
+  ],
+  "key": {
+    "b": {
+      "item": "lightbulb:purple_glowblock"
+    }
+  },
+  "result": {
+    "item": "lightbulb:purple_glowrod",
+    "count": 4
+  }
+}

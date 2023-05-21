@@ -50,7 +50,23 @@
     "lightbulb:inverted_purple_glowlamp",
     "lightbulb:inverted_magenta_glowlamp",
     "lightbulb:inverted_pink_glowlamp",
-    "lightbulb:inverted_brown_glowlamp"
+    "lightbulb:inverted_brown_glowlamp",
 
+    "lightbulb:white_glowrod",
+    "lightbulb:light_gray_glowrod",
+    "lightbulb:gray_glowrod",
+    "lightbulb:black_glowrod",
+    "lightbulb:red_glowrod",
+    "lightbulb:orange_glowrod",
+    "lightbulb:yellow_glowrod",
+    "lightbulb:lime_glowrod",
+    "lightbulb:green_glowrod",
+    "lightbulb:cyan_glowrod",
+    "lightbulb:light_blue_glowrod",
+    "lightbulb:blue_glowrod",
+    "lightbulb:purple_glowrod",
+    "lightbulb:magenta_glowrod",
+    "lightbulb:pink_glowrod",
+    "lightbulb:brown_glowrod"
   ]
 }
