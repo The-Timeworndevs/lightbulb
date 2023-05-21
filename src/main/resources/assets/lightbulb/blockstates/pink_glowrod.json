@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lightbulb:block/pink_glowrod",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lightbulb:block/pink_glowrod"
+    },
+    "axis=z": {
+      "model": "lightbulb:block/pink_glowrod",
+      "x": 90
+    }
+  }
+}
