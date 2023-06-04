@@ -37,6 +37,7 @@ public class Blocks {
         sets(Main.MOD_ID,"magenta");
         sets(Main.MOD_ID,"pink");
         sets(Main.MOD_ID,"brown");
+        miscRegistries(Main.MOD_ID);
     }
 
     public static void sets(String modid, String setName){
@@ -47,8 +48,13 @@ public class Blocks {
         Registries.registerBlocks(new Identifier(modid, "inverted_" + setName + "_glowlamp"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromUnlitLitBlockState(15)).strength(0.3f)));
         //1.2.0
         Registries.registerBlocks(new Identifier(modid, setName + "_glowrod"), new ChainBlock(AbstractBlock.Settings.of(Material.STONE).sounds(BlockSoundGroup.GLASS).luminance((state) -> {return 15;}).strength(5.0F, 6.0F)));
-        //todo: 1.3.0: add buttons, levers, sea lanterns, rs lamps, glowstone, inverted redstone lamp
+        //todo: 1.3.0: add buttons, levers?, sea lanterns, rs lamps, glowstone
 
         //todo: 1.4.0 add dyed soul soil, dyed torches, dyed campfires, dyed jack 'o lanterns, soul jack 'o lanterns, dyed lanterns
+    }
+
+    public static void miscRegistries(String modid) {
+        //1.3.0
+        Registries.registerBlocks(new Identifier(modid, "inverted_redstone_lamp"), new RedstoneLampBlock(AbstractBlock.Settings.of(Material.REDSTONE_LAMP).sounds(BlockSoundGroup.GLASS).luminance(createLightLevelFromUnlitLitBlockState(15)).strength(0.3f)));
     }
 }
