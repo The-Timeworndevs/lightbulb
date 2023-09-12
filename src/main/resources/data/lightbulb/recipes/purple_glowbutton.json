@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glowbutton",
+  "ingredients": [
+    {
+      "item": "lightbulb:purple_glowblock"
+    }
+  ],
+  "result": {
+    "item": "lightbulb:purple_glowbutton"
+  }
+}

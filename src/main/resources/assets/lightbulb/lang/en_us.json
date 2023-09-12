@@ -65,5 +65,22 @@
   "block.lightbulb.purple_glowrod": "Purple Glowrod",
   "block.lightbulb.magenta_glowrod": "Magenta Glowrod",
   "block.lightbulb.pink_glowrod": "Pink Glowrod",
-  "block.lightbulb.brown_glowrod": "Brown Glowrod"
+  "block.lightbulb.brown_glowrod": "Brown Glowrod",
+
+  "block.lightbulb.white_glowbutton": "White Glowbutton",
+  "block.lightbulb.light_gray_glowbutton": "Light Gray Glowbutton",
+  "block.lightbulb.gray_glowbutton": "Gray Glowbutton",
+  "block.lightbulb.black_glowbutton": "Black Glowbutton",
+  "block.lightbulb.red_glowbutton": "Red Glowbutton",
+  "block.lightbulb.orange_glowbutton": "Orange Glowbutton",
+  "block.lightbulb.yellow_glowbutton": "Yellow Glowbutton",
+  "block.lightbulb.lime_glowbutton": "Lime Glowbutton",
+  "block.lightbulb.green_glowbutton": "Green Glowbutton",
+  "block.lightbulb.cyan_glowbutton": "Cyan Glowbutton",
+  "block.lightbulb.light_blue_glowbutton": "Light Blue Glowbutton",
+  "block.lightbulb.blue_glowbutton": "Blue Glowbutton",
+  "block.lightbulb.purple_glowbutton": "Purple Glowbutton",
+  "block.lightbulb.magenta_glowbutton": "Magenta Glowbutton",
+  "block.lightbulb.pink_glowbutton": "Pink Glowbutton",
+  "block.lightbulb.brown_glowbutton": "Brown Glowbutton"
 }

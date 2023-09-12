@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "lightbulb:block/light_blue_glowblock"
+  }
+}

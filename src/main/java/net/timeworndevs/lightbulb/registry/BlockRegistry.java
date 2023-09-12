@@ -93,8 +93,24 @@ public class BlockRegistry {
     public static final RedstoneLampBlock INVERTED_MAGENTA_GLOWLAMP = new RedstoneLampBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).hardness(0.3f).requiresTool().luminance(createLightLevelFromUnlitLitBlockState(15)).sounds(BlockSoundGroup.GLASS));
     public static final RedstoneLampBlock INVERTED_PINK_GLOWLAMP = new RedstoneLampBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).hardness(0.3f).requiresTool().luminance(createLightLevelFromUnlitLitBlockState(15)).sounds(BlockSoundGroup.GLASS));
 
+    public static final ButtonBlock WHITE_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.WHITE).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock LIGHT_GRAY_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_GRAY).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock GRAY_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock BLACK_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock BROWN_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock RED_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock ORANGE_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock YELLOW_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock LIME_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIME).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock GREEN_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.GREEN).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock CYAN_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.CYAN).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock LIGHT_BLUE_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock BLUE_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLUE).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock PURPLE_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.PURPLE).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock MAGENTA_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+    public static final ButtonBlock PINK_GLOWBUTTON = new ButtonBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).hardness(0.3f).luminance((state) -> {return 15;}).sounds(BlockSoundGroup.GLASS), BlockSetType.STONE, 20, false);
+
     public static void register() {
-        itemGroups();
 
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "white_glowblock"), WHITE_GLOWBLOCK);
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "light_gray_glowblock"), LIGHT_GRAY_GLOWBLOCK);
@@ -163,75 +179,23 @@ public class BlockRegistry {
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "inverted_purple_glowlamp"), INVERTED_PURPLE_GLOWLAMP);
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "inverted_magenta_glowlamp"), INVERTED_MAGENTA_GLOWLAMP);
         Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "inverted_pink_glowlamp"), INVERTED_PINK_GLOWLAMP);
+
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "white_glowbutton"), WHITE_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "light_gray_glowbutton"), LIGHT_GRAY_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "gray_glowbutton"), GRAY_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "black_glowbutton"), BLACK_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "brown_glowbutton"), BROWN_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "red_glowbutton"), RED_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "orange_glowbutton"), ORANGE_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "yellow_glowbutton"), YELLOW_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "lime_glowbutton"), LIME_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "green_glowbutton"), GREEN_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "cyan_glowbutton"), CYAN_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "light_blue_glowbutton"), LIGHT_BLUE_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "blue_glowbutton"), BLUE_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "purple_glowbutton"), PURPLE_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "magenta_glowbutton"), MAGENTA_GLOWBUTTON);
+        Registry.register(Registries.BLOCK, new Identifier(Main.MOD_ID, "pink_glowbutton"), PINK_GLOWBUTTON);
     }
 
-    public static void itemGroups() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(WHITE_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_GRAY_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GRAY_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLACK_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BROWN_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(RED_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(ORANGE_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(YELLOW_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIME_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GREEN_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(CYAN_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_BLUE_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLUE_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PURPLE_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(MAGENTA_GLOWBLOCK);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PINK_GLOWBLOCK);});
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(WHITE_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_GRAY_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GRAY_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLACK_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BROWN_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(RED_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(ORANGE_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(YELLOW_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIME_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GREEN_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(CYAN_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_BLUE_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLUE_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PURPLE_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(MAGENTA_GLOWROD);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PINK_GLOWROD);});
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(WHITE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_GRAY_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GRAY_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLACK_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BROWN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(RED_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(ORANGE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(YELLOW_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIME_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(GREEN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(CYAN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(LIGHT_BLUE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(BLUE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PURPLE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(MAGENTA_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(PINK_GLOWLAMP);});
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_WHITE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_LIGHT_GRAY_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_GRAY_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_BLACK_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_BROWN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_RED_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_ORANGE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_YELLOW_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_LIME_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_GREEN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_CYAN_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_LIGHT_BLUE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_BLUE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_PURPLE_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_MAGENTA_GLOWLAMP);});
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(content -> {content.add(INVERTED_PINK_GLOWLAMP);});
-    }
 }

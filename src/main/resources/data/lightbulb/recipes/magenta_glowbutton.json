@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glowbutton",
+  "ingredients": [
+    {
+      "item": "lightbulb:magenta_glowblock"
+    }
+  ],
+  "result": {
+    "item": "lightbulb:magenta_glowbutton"
+  }
+}
