@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lightbulb:glowblock",
     "lightbulb:white_glowblock",
     "lightbulb:light_gray_glowblock",
     "lightbulb:gray_glowblock",
@@ -18,6 +19,7 @@
     "lightbulb:pink_glowblock",
     "lightbulb:brown_glowblock",
 
+    "lightbulb:glowlamp",
     "lightbulb:white_glowlamp",
     "lightbulb:light_gray_glowlamp",
     "lightbulb:gray_glowlamp",
@@ -35,6 +37,7 @@
     "lightbulb:pink_glowlamp",
     "lightbulb:brown_glowlamp",
 
+    "lightbulb:inverted_glowlamp",
     "lightbulb:inverted_white_glowlamp",
     "lightbulb:inverted_light_gray_glowlamp",
     "lightbulb:inverted_gray_glowlamp",
@@ -52,6 +55,7 @@
     "lightbulb:inverted_pink_glowlamp",
     "lightbulb:inverted_brown_glowlamp",
 
+    "lightbulb:glowrod",
     "lightbulb:white_glowrod",
     "lightbulb:light_gray_glowrod",
     "lightbulb:gray_glowrod",

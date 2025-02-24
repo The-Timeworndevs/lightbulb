@@ -3,10 +3,10 @@
   "group": "glowbutton",
   "ingredients": [
     {
-      "item": "lightbulb:light_gray_glowblock"
+      "item": "lightbulb:glowblock"
     }
   ],
   "result": {
-    "id": "lightbulb:light_gray_glowbutton"
+    "id": "lightbulb:glowbutton"
   }
 }

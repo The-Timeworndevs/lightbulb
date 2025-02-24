@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lightbulb:inverted__glowlamp"
+          "name": "lightbulb:inverted_glowlamp"
         }
       ],
       "rolls": 1.0

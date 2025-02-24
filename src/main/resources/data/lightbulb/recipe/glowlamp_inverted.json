@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lightbulb:gray_glowblock"
+      "item": "lightbulb:glowblock"
     },
     {
       "item": "minecraft:redstone_torch"
     }
   ],
   "result": {
-    "id": "lightbulb:inverted_gray_glowlamp"
+    "id": "lightbulb:inverted_glowlamp"
   }
 }

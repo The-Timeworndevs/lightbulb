@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lightbulb:orange_glowblock"
+      "item": "lightbulb:glowblock"
     },
     {
       "item": "minecraft:redstone"
     }
   ],
   "result": {
-    "id": "lightbulb:orange_glowlamp"
+    "id": "lightbulb:glowlamp"
   }
 }

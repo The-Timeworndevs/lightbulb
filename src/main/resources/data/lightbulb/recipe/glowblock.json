@@ -7,14 +7,14 @@
   ],
   "key": {
     "p": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:glass_pane"
     },
     "g": {
       "item": "minecraft:glowstone"
     }
   },
   "result": {
-    "id": "lightbulb:red_glowblock",
+    "id": "lightbulb:glowblock",
     "count": 4
   }
 }

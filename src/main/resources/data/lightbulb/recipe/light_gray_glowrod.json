@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "lightbulb:light_gray_glowrod",
+    "id": "lightbulb:light_gray_glowrod",
     "count": 4
   }
 }

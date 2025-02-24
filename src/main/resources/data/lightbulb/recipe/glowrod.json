@@ -6,11 +6,11 @@
   ],
   "key": {
     "b": {
-      "item": "lightbulb:black_glowblock"
+      "item": "lightbulb:glowblock"
     }
   },
   "result": {
-    "id": "lightbulb:black_glowrod",
+    "id": "lightbulb:glowrod",
     "count": 4
   }
 }
